@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Policy Bazaar" verbose="2" >
+    <parameter name="env" value="QA"/>
+    <parameter name="applicationName" value="Policy Bazaar"/>
+    <test name="Create Term Life" >
+        <parameter name="TestCaseName" value="TermLifeTest"/>
+        <parameter name = "TestCaseDes" value="Term Life flow end to end test"/>
+        <classes>
+            <class name = "policy_bazar_test.LaunchPolicyBazaarTest"/>
+            <class name="policy_bazar_test.term_life_test.TermLifeTest"/>
+        </classes>
+    </test>
+</suite>
